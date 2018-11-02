@@ -3,4 +3,4 @@
   hosts: all
 
   tasks:
-    - script: /tmp/pshell_script.ps1
+    - script: /home/tower/pshell_script.ps1
