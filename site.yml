@@ -1,5 +1,6 @@
+---
 - name: Run windows powershell script
   hosts: all
 
   tasks:
-    script: /var/lib/awx/projects/pshell_script.ps1
+    - script: /var/lib/awx/projects/pshell_script.ps1
