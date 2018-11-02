@@ -3,4 +3,4 @@
   hosts: all
 
   tasks:
-    - script: /var/lib/awx/projects/pshell_script.ps1
+    - script: /tmp/pshell_script.ps1
