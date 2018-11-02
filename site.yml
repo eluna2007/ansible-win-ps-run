@@ -3,4 +3,4 @@
   hosts: all
 
   tasks:
-    - script: /home/tower/pshell_script.ps1
+    - win_shell: C:\Users\Administrator\Desktop\ansible_ps_script.ps1 >> C:\Users\Administrator\Desktop\ansible_ps_script.out
