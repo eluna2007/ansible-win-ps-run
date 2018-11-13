@@ -4,5 +4,7 @@
 
   tasks:
     - win_shell: C:\Users\Administrator\Desktop\ansible_ps_script.ps1
+      become: yes
+      become_user: Administrator
     
     
