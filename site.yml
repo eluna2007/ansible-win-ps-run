@@ -5,6 +5,6 @@
   tasks:
     - win_shell: C:\Users\Administrator\Desktop\ansible_ps_script.ps1 >> C:\Users\Public\Documents\results.txt
       become: yes
-      become_user: Administrator
+      become_user: your user
     
     
